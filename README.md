@@ -12,7 +12,7 @@ Maps integer pixels (0–255) to floating-point using `f = i / 255.0`.
 
 ## Screenshot — Correctness Check
 
-![Correctness verification](Screenshot 2026-08-06 135948.png)
+![Correctness verification](Screenshot.png)
 
 **Result:** `PASS` — 0 mismatched pixels.
 | Image Size | Avg Time | Pixels | Per Pixel |
