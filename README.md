@@ -2,7 +2,7 @@
 Jasim Sirad B. Batua - S25G
 # imgCvtGrayIntToDouble
 
-C + x86-64 Assembly (NASM) — Converts uint8 grayscale images to double-precision [0.0, 1.0].
+C + x86-64 Assembly (NASM) — Converts unsigned 8 bit integer grayscale images to double-precision [0.0, 1.0].
 
 What it does
 
