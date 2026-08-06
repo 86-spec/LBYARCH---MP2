@@ -10,7 +10,11 @@ Maps integer pixels (0–255) to floating-point using `f = i / 255.0`.
 - Main.c - collects input, allocates memory, prints output, verifies correctness, benchmarks.
 - imgcvt.asm - performs the conversion using scalar SSE2 instructions.
 
+## Screenshot — Correctness Check
 
+![Correctness verification](Screenshot 2026-08-06 135948.png)
+
+**Result:** `PASS` — 0 mismatched pixels.
 | Image Size | Avg Time | Pixels | Per Pixel |
 |------------|----------|--------|-----------|
 | 10 × 10 | 0.877 µs | 100 | 8.77 ns |
