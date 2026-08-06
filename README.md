@@ -11,12 +11,11 @@ Maps integer pixels (0–255) to floating-point using `f = i / 255.0`.
 - imgcvt.asm - performs the conversion using scalar SSE2 instructions.
 
 
-
-Image Size   Avg Time      Pixels     Per Pixel
-10 × 10      0.877 µs        100        8.77 ns
-100 × 100    35.917 µs      10,000    3.59 ns
-1000 × 1000  2,212.333 µs  1,000,000   2.21 ns
-
+| Image Size | Avg Time | Pixels | Per Pixel |
+|------------|----------|--------|-----------|
+| 10 × 10 | 0.877 µs | 100 | 8.77 ns |
+| 100 × 100 | 35.917 µs | 10,000 | 3.59 ns |
+| 1000 × 1000 | 2,212.333 µs | 1,000,000 | 2.21 ns |
 
 
 
