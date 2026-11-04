@@ -7,7 +7,7 @@
 ; ([0.0, 1.0]) using f = i * (1/255).
 
 
-section .rodata
+section .rodata 
     align 8
     scale_factor: dq 0.0039215686274509803921568627451   ; 1/255
 
